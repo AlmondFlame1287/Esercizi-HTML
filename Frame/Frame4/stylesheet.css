@@ -1,0 +1,25 @@
+body {
+	background-color: #599fcf;
+}
+
+a {
+	text-decoration: none;
+	font-size: 22px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#f1 {
+	color: red;
+}
+
+#factorio {
+	color: orange;
+}
+
+#minecraft {
+	color: olive;
+}
+
+#github {
+	color: black;
+}
