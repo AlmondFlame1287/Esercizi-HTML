@@ -1,0 +1,28 @@
+body {
+	background-color: #e6a787;
+}
+
+img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+}
+
+#descrizione {
+	text-align: center;
+	color: olive;
+	border: 10px solid olive;
+	border-radius: 10px;
+	font-size: 25px
+}
+
+#testo {
+	font-family: 'Bungee', cursive;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: olive;
+}

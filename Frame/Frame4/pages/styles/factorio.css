@@ -1,0 +1,28 @@
+body {
+	background-color: darkorange;
+}
+
+img {
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+}
+
+#descrizione {
+	text-align: center;
+	color: #c87606;
+	border: 10px solid orange;
+	border-radius: 10px;
+	font-size: 25px;
+}
+
+#testo {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: darkred;
+}
