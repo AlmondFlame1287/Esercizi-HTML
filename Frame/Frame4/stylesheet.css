@@ -1,3 +1,54 @@
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	color: white;
+	padding: 20px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	transition: width 0.2s;
+}
+
+.dropbtn:hover {
+	width: 192px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: darkgray;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px gray;
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#f1:hover {
+	background-color: gray;
+}
+
+#factorio:hover {
+	background-color: gray;
+}
+
+#minecraft:hover {
+	background-color: gray;
+}
+
+#github:hover {
+	background-color: gray;
+}
+
 body {
 	background-color: #599fcf;
 }
@@ -6,20 +57,25 @@ a {
 	text-decoration: none;
 	font-size: 22px;
 	font-family: 'Permanent Marker', cursive;
+	border-radius: 15px;
 }
 
 #f1 {
 	color: red;
+	border: 4px dotted darkred;
 }
 
 #factorio {
 	color: orange;
+	border: 6px dashed darkorange;
 }
 
 #minecraft {
 	color: olive;
+	border: 8px ridge olive;
 }
 
 #github {
 	color: black;
+	border: 5px solid black;
 }
